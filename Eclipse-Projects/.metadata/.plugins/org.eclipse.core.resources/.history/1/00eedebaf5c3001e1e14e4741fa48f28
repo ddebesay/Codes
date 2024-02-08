@@ -1,0 +1,21 @@
+package RunnnerAPP;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+
+import PageObjectModels.base;
+
+
+public class FooterPageTest {
+
+	public static WebDriver driver;
+	
+	public static void main(String[] args) throws IOException {
+		driver = base.getdriver();
+		base.ScrollFunction();
+		base.Screenshot("Footer Page");
+
+	}
+
+}

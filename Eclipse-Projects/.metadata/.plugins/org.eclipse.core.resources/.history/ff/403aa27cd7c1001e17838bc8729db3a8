@@ -1,0 +1,21 @@
+package basicJava_Projects;
+
+public class Frdiay {
+
+	public static void main(String[] args) {
+		Frdiay fd = new Frdiay (); 
+		
+		fd.testing();
+		
+		
+		
+		
+		
+
+	}
+		public void  testing () {
+		
+			System.out.println("hi");
+			
+	}
+}

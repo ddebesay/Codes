@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.Selenium.testnew.test&apos; to &apos;FindFileFromPC&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumProject_FileUpload&apos;&#x0D;&#x0A;- Original element: &apos;com.Selenium.testnew.test&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Selenium.testnew.FindFileFromPC&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.Selenium.testnew{test.java[test" matchStrategy="1" name="FindFileFromPC" qualified="false" references="true" similarDeclarations="false" stamp="1705306017042" textual="false" version="1.0"/>
+</session>

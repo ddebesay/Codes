@@ -1,0 +1,76 @@
+package PageObjectModels;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+public class SignUpPage {
+	
+	@FindBy(xpath = "//a[text()='Sign up']")
+	WebElement SignUpButton;  
+	@FindBy(xpath = "//input[@id='first_name']")
+	WebElement FirstNameField;
+	@FindBy(xpath = "//input[@name='last_name']")
+	WebElement LastNameField;
+	@FindBy (xpath = "//input[@name='email']")
+	WebElement EmailAddressField;
+	@FindBy (xpath = "//input[@name='password']")
+	WebElement PasswordField;
+	@FindBy(xpath = "//select[@name='sex']")
+	WebElement SelectSexBox;
+	@FindBy (xpath = "//select[@name='dob_day']")
+	WebElement DateOfBirthDAY;
+	@FindBy (xpath = "//select[@name='dob_month']")
+	WebElement DateOfBirthMONTH;
+	@FindBy (xpath = "//select[@name='dob_year']")
+	WebElement DateOfBirthYEAR;
+	@FindBy (xpath = "//input[@value='Sign up']")
+	WebElement SignupButtonOnReg;
+	
+	@FindBy (xpath = "//h1[text()='Thank you — now activate your account!']")
+	WebElement SignUpCheck;
+	
+	WebDriver driver;
+
+	public SignUpPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	public void SignUpButton () {
+		SignUpButton.click();
+	}
+	public void FirstNameField () {
+		FirstNameField.sendKeys("Jon");
+	}
+	public void LastNameField () {
+		LastNameField.sendKeys("Smith");
+	}
+	public void EmailAddressField () {
+		EmailAddressField.sendKeys("sfdsfd45gf4adjkan@gmail.com");
+	}
+	public void PasswordField () {
+		PasswordField.sendKeys("Danny@1995");
+	}
+	public void SelectSexBox () {
+		Select sc = new Select (SelectSexBox);
+		sc.selectByVisibleText("Male");
+	}
+	public void DateOfBirth () {
+	Select day = new Select (DateOfBirthDAY);
+	day.selectByVisibleText("13");
+	Select month = new Select (DateOfBirthMONTH);
+	month.selectByVisibleText("September");
+	Select year = new Select (DateOfBirthYEAR);
+	year.selectByVisibleText("1995");
+	}
+	public void SignupButtonOnReg () {
+		SignupButtonOnReg.click();
+	}
+	
+	public void SignUpVerification()  {
+		
+	}
+	}
+

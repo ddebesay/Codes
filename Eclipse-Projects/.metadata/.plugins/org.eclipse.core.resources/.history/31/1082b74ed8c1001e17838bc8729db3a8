@@ -1,0 +1,8 @@
+package ReviewPackage;
+
+public class Page1 {
+	
+	public void Friday () {
+		System.out.println("Its Friday");
+	}
+}

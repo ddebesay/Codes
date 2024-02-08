@@ -1,0 +1,9 @@
+package PageObjectModels;
+
+public class FooterPage {
+	
+	
+	public void scrollDown () {
+		
+	}
+}

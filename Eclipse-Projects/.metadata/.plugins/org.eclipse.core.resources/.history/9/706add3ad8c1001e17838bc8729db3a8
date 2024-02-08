@@ -1,0 +1,15 @@
+package ReviewPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Page1 pg = new Page1();
+		pg.Friday();
+
+	}
+
+	
+	public void Testing () {
+		
+	}
+}

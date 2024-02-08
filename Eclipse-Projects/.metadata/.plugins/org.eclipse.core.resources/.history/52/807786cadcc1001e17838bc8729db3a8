@@ -1,0 +1,17 @@
+package ReviewPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Page1 P1 = new Page1 ("Daniel", "123 Wilson BLVD");
+		
+		P1.Status();
+		
+		
+		
+	}
+
+	 
+	
+}

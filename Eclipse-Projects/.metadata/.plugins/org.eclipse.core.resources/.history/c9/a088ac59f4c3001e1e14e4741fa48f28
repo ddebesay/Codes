@@ -1,0 +1,17 @@
+package PageObjectModels;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class FooterPage {
+	
+	
+	public void scrollDown () {
+		
+		@FindBy(xpath = "//a[normalize-space()='Privacy policy']")
+		WebElement PrivacyPolicy;
+		
+		WebElement TermsOfUse;
+		WebElement ContactUs;
+	}
+}

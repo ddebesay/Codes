@@ -1,0 +1,32 @@
+package RunnnerAPP;
+
+import org.openqa.selenium.WebDriver;
+
+import PageObjectModels.LoginPage;
+import PageObjectModels.LogoutPage;
+import PageObjectModels.base;
+
+public class LoginPageTest {
+	static WebDriver driver;
+	
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		driver = base.getdriver();
+		
+		LoginPage LP = new LoginPage (driver);
+		LP.LoginButton();
+		LP.EmailAddressField();
+		LP.PasswordField();
+		LP.LoginButtonTwo();
+		LP.VerifyLoginUser();
+		
+		LogoutPage LOP = new LogoutPage(driver);
+		LOP.SettingButton();
+		LOP.LogoutButton();
+		
+		
+		driver = base.tearDown();
+	}
+
+}

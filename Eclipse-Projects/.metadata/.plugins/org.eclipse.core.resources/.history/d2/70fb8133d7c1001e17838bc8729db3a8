@@ -1,0 +1,18 @@
+package basicJava_Projects;
+
+public class Frdiay {
+
+	public static void main(String[] args) {
+		Frdiay fd = new Frdiay (); 
+		
+		
+		System.out.println(fd.testing());
+		
+		
+
+	}
+		public   testing () {
+		
+			
+	}
+}

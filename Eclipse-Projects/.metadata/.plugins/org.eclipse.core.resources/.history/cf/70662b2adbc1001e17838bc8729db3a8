@@ -1,0 +1,21 @@
+package ReviewPackage;
+
+public class Page1 {  // bluePrint
+	
+	String name;   // Properties : behavior, state of Class
+	
+	
+	
+	public Page1(String name) {  // Used to inisilize Objects & pass value 
+	super();					// 	Same name As class
+	this.name = name;			// No return Type
+}
+
+
+
+	public void Friday () {  //work / Function 
+		
+		System.out.println(" My name is " + this.name);
+		
+	}
+}

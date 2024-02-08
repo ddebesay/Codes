@@ -1,0 +1,22 @@
+package ReviewPackage;
+
+
+public class Page1 {  // bluePrint
+	
+	public String name;
+	private  String SSN = "001"; 
+	private String Address = "123 Wilson BLVD" ;
+	
+	
+	
+	public Page1(String name) {
+		this.name = name;
+	}
+
+
+
+	public void Status () {
+		System.out.println("My name is " + this.name + " My SSN is " + this.SSN + " my Address is " + this.Address);
+	}
+	 
+}

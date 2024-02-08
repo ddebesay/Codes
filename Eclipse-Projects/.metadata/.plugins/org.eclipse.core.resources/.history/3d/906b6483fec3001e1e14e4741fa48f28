@@ -1,0 +1,25 @@
+package TestNGFramework;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import PageObjectModels.LoginPage;
+import PageObjectModels.base;
+
+
+public class LoginFunction {
+	 WebDriver driver;
+	 LoginPage LP;
+
+	@Test	
+	 void LoginWithValidCredentials () throws IOException {
+		driver = base.getdriver();
+		LP = new LoginPage(driver);
+		LP.LoginButton();
+		
+		
+	}
+	
+}

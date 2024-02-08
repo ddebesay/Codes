@@ -1,0 +1,35 @@
+package TestNGFramework;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import PageObjectModels.LoginPage;
+import PageObjectModels.base;
+
+
+public class LoginFunction extends Root{
+	
+	WebDriver driver;
+	LoginPage LP;
+
+	@Test	
+	public void LoginWithValidCredentials () throws IOException {
+		driver = base.getdriver();
+		LP.LoginButton();
+		LP.EmailAddressField("ddebesay@gmail.com");
+		LP.PasswordField("Danny@1995");
+		LP.LoginButtonTwo();
+		base.TakeScreenshot("Login With Valid Vredentials");
+	}
+	@Test
+	public void LoginWithInvalidCredentials () throws IOException {
+		driver = base.getdriver();
+		LP.LoginButton();
+		LP.EmailAddressField("125@gmail.com");
+		LP.PasswordField("428745");
+		LP.LoginButtonTwo();
+		base.TakeScreenshot("Login With Invalid Vredentials");
+	}
+}

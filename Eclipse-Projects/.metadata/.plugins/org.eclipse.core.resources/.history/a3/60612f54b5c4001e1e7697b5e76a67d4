@@ -1,0 +1,17 @@
+package basicJava_Projects;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Test ts = new Test ();
+		ts.greet();
+		System.out.println(ts.greet());
+
+	}
+	public boolean greet () {
+		
+		boolean red= true;
+		
+		return red;
+	}
+}

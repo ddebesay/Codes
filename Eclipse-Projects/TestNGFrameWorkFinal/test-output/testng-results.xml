@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-12T10:11:01 EST" name="Suite" finished-at="2024-01-12T10:12:00 EST" duration-ms="59341">
+    <groups>
+      <group name="regression">
+        <method signature="CheckoutFunctionTest.completeCheckoutProcess()[pri:1, instance:TestRunners.CheckoutFunctionTest@49e53c76]" name="completeCheckoutProcess" class="TestRunners.CheckoutFunctionTest"/>
+        <method signature="ProductFunctionTest.CheckProductPageDashBoard()[pri:1, instance:TestRunners.ProductFunctionTest@293a5bf6]" name="CheckProductPageDashBoard" class="TestRunners.ProductFunctionTest"/>
+        <method signature="CheckoutFunctionTest.filloutForm()[pri:2, instance:TestRunners.CheckoutFunctionTest@49e53c76]" name="filloutForm" class="TestRunners.CheckoutFunctionTest"/>
+        <method signature="ProductFunctionTest.checkProductSorting()[pri:2, instance:TestRunners.ProductFunctionTest@293a5bf6]" name="checkProductSorting" class="TestRunners.ProductFunctionTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CheckoutFunctionTest.completeCheckoutProcess()[pri:1, instance:TestRunners.CheckoutFunctionTest@49e53c76]" name="completeCheckoutProcess" class="TestRunners.CheckoutFunctionTest"/>
+        <method signature="CheckoutFunctionTest.filloutForm()[pri:2, instance:TestRunners.CheckoutFunctionTest@49e53c76]" name="filloutForm" class="TestRunners.CheckoutFunctionTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-01-12T10:11:01 EST" name="Test" finished-at="2024-01-12T10:12:00 EST" duration-ms="59341">
+      <class name="TestRunners.ProductFunctionTest">
+        <test-method is-config="true" signature="initialPageAndLogin()[pri:0, instance:TestRunners.ProductFunctionTest@293a5bf6]" started-at="2024-01-12T10:11:01 EST" name="initialPageAndLogin" finished-at="2024-01-12T10:11:09 EST" duration-ms="8201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialPageAndLogin -->
+        <test-method signature="CheckProductPageDashBoard()[pri:1, instance:TestRunners.ProductFunctionTest@293a5bf6]" started-at="2024-01-12T10:11:09 EST" name="CheckProductPageDashBoard" finished-at="2024-01-12T10:11:10 EST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckProductPageDashBoard -->
+        <test-method signature="checkProductSorting()[pri:2, instance:TestRunners.ProductFunctionTest@293a5bf6]" started-at="2024-01-12T10:11:10 EST" name="checkProductSorting" finished-at="2024-01-12T10:11:22 EST" duration-ms="12117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestRunners.ProductFunctionTest@293a5bf6]" started-at="2024-01-12T10:11:22 EST" name="tearDown" finished-at="2024-01-12T10:11:31 EST" duration-ms="9051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestRunners.ProductFunctionTest -->
+      <class name="TestRunners.CheckoutFunctionTest">
+        <test-method is-config="true" signature="initialPageAndLogin()[pri:0, instance:TestRunners.CheckoutFunctionTest@49e53c76]" started-at="2024-01-12T10:11:31 EST" name="initialPageAndLogin" finished-at="2024-01-12T10:11:36 EST" duration-ms="4443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialPageAndLogin -->
+        <test-method signature="completeCheckoutProcess()[pri:1, instance:TestRunners.CheckoutFunctionTest@49e53c76]" started-at="2024-01-12T10:11:36 EST" name="completeCheckoutProcess" finished-at="2024-01-12T10:11:43 EST" duration-ms="6821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutProcess -->
+        <test-method signature="filloutForm()[pri:2, instance:TestRunners.CheckoutFunctionTest@49e53c76]" started-at="2024-01-12T10:11:43 EST" name="filloutForm" finished-at="2024-01-12T10:11:51 EST" duration-ms="8423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filloutForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestRunners.CheckoutFunctionTest@49e53c76]" started-at="2024-01-12T10:11:51 EST" name="tearDown" finished-at="2024-01-12T10:12:00 EST" duration-ms="8994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestRunners.CheckoutFunctionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Inhertiance_polyPractice&apos; to &apos;Inhertiance&apos;&#x0D;&#x0A;- Original project: &apos;Projects&apos;&#x0D;&#x0A;- Original element: &apos;Projects/src/Inhertiance_polyPractice&apos;&#x0D;&#x0A;- Renamed element: &apos;Projects/src/Inhertiance&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Inhertiance_polyPractice&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Inhertiance_polyPractice" name="Inhertiance" qualified="false" references="true" stamp="1703307952110" textual="false" version="1.0"/>
+</session>

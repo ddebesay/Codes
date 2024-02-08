@@ -1,0 +1,20 @@
+package TestNGFramework;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+import PageObjectModels.LoginPage;
+
+
+public class LoginFunction {
+	
+
+	@Test	
+	public void LoginWithValidCredentials () throws IOException {
+		System.out.println("hi");
+		
+		
+	}
+	
+}

@@ -1,0 +1,24 @@
+package TestNGFramework;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import PageObjectModels.LoginPage;
+import PageObjectModels.base;
+
+
+public class LoginFunction extends Root{
+	
+	WebDriver driver;
+	LoginPage LP;
+
+@Test	
+public void LoginWithValidCredentials () {
+		driver = base.getdriver();
+		LP.LoginButton();
+		LP.EmailAddressField("ddebesay@gmail.com");
+		LP.PasswordField("Danny@1995");
+		LP.LoginButtonTwo();
+		base.TakeScreenshot(null);
+	}
+}

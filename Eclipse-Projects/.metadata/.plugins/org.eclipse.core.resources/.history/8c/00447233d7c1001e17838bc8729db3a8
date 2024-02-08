@@ -1,0 +1,20 @@
+package basicJava_Projects;
+
+public class New {
+
+	public static void main(String[] args) {
+		New nw = new New (); 
+		
+		
+		System.out.println(nw.testing());
+		
+		
+
+	}
+		public int  testing () {
+		
+			int num = 1;
+			
+			return num; 
+	}
+}

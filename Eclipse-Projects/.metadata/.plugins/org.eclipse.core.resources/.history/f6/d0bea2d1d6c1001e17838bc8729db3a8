@@ -1,0 +1,20 @@
+package basicJava_Projects;
+
+public class New {
+
+	public static void main(String[] args) {
+		New nw = new New (); 
+		nw.testing();
+		
+		
+		
+		
+
+	}
+		public String  testing () {
+		
+			String name = "Daniel";
+			
+			return name; 
+	}
+}

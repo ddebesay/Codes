@@ -1,0 +1,16 @@
+package ReviewPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Page1 P1 = new Page1 ("Daniel");
+		
+		P1.Status();
+		
+		
+	}
+
+	 
+	
+}

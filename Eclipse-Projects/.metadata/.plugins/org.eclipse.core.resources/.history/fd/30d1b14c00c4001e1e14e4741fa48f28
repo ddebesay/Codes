@@ -1,0 +1,23 @@
+package TestNGFramework;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import PageObjectModels.LoginPage;
+import PageObjectModels.base;
+
+
+public class LoginFunction extends Root{
+	
+
+	@Test	
+	public void LoginWithValidCredentials () throws IOException, InterruptedException {
+		LP.Credentials("ddebesay@gmail.com", "Danny@1995");
+		LP.VerifyLoginUser();
+		base.TakeScreenshot("Successful Login");
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+package basicJava_Projects;
+
+public class New {
+
+	public static void main(String[] args) {
+		New nw = new New (); 
+		nw.testing("daniel"); 
+		
+		
+		
+		
+
+	}
+		public void testing (String name) {
+		
+			System.out.println("My name is " + name);
+	}
+}

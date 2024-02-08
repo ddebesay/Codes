@@ -1,0 +1,16 @@
+package TestNGFramework;
+
+import org.openqa.selenium.WebDriver;
+import PageObjectModels.base;
+
+
+public class LoginFunction extends Root{
+	
+	WebDriver driver;
+	
+	
+	public void LoginWithValidCredentials () {
+		driver = base.getdriver();
+		
+	}
+}

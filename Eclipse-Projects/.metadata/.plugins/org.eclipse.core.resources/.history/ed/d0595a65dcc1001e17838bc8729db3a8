@@ -1,0 +1,11 @@
+package ReviewPackage;
+
+
+public class Page1 {  // bluePrint
+	
+	
+
+	 static void Records (String name, int age) {
+		System.out.println("Name is " + name + " Age is " + age);
+	}
+}
